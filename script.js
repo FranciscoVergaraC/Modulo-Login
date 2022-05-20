@@ -1,6 +1,15 @@
 let showpass = document.getElementById('PasswordButton');
 let login = document.getElementById('LoginButton');
 
+let homeimg = document.getElementById('Base-logos')
+
+homeimg.onclick = function () {
+    window.location.assign("../Optimised/index.html");
+}
+
+
+/*Implementar oAuth y Strapi*/
+
 showpass.onclick = function () {
     if (document.getElementById('PasswordButton').innerHTML == 'show'){
         document.getElementById('PasswordButton').innerHTML =  'hide';
