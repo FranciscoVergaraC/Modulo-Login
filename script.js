@@ -4,7 +4,7 @@ let login = document.getElementById('LoginButton');
 let homeimg = document.getElementById('Base-logos')
 
 homeimg.onclick = function () {
-    window.location.assign("../Optimised/index.html");
+    window.location.assign("../index.html");
 }
 
 
